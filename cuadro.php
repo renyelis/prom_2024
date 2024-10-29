@@ -61,6 +61,26 @@
             font-size: 1em;
             font-weight: bold;
         }
+
+        /* Estilos del botón */
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -87,7 +107,7 @@
             <p class="highlight-label">TERCER PUESTO</p>
         </div>
     </div>
+    <!-- Botón de volver al inicio -->
+    <button class="back-button" onclick="window.location.href='pagina_principal.php'">←</button>
 </body>
 </html>
-
-

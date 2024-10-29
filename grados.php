@@ -35,9 +35,9 @@
 
         /* Estilos de cada círculo */
         .circle {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
+            width: 120px; /* Aumenta el tamaño del ancho */
+            height: 120px; /* Aumenta el tamaño de la altura */
+            border-radius: 80%;
             background-color: #D3D3D3;
             display: flex;
             align-items: center;
@@ -57,39 +57,60 @@
 
         /* Estilo del texto debajo de cada círculo */
         .circle-label {
-            margin-top: 10px;
+            margin-top: 5px; /* Reduce el margen superior */
             text-align: center;
+            font-size: 1.1em; /* Aumenta ligeramente el tamaño de la fuente */
+        }
+
+        /* Estilos del botón */
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
             font-size: 1em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>PROMOCIÓN 200 AÑOS</h1>
+    <h1>ℙℝ𝕆𝕄𝕆ℂ𝕀Óℕ 𝟚𝟘𝟘 𝔸Ñ𝕆𝕊</h1>
     <div class="circle-container">
         <div class="circle">
-            <img src="imagen1.jpg" alt="II-1">
+            <img src="images/11-1.png" alt="II-1">
         </div>
         <p class="circle-label">II-1</p>
 
         <div class="circle">
-            <img src="imagen2.jpg" alt="II-2">
+            <img src="images/11-2.png" alt="II-2">
         </div>
         <p class="circle-label">II-2</p>
 
         <div class="circle">
-            <img src="imagen3.jpg" alt="II-3">
+            <img src="images/11-3.png" alt="II-3">
         </div>
         <p class="circle-label">II-3</p>
 
         <div class="circle">
-            <img src="imagen4.jpg" alt="II-4">
+            <img src="images/11-4.png" alt="II-4">
         </div>
         <p class="circle-label">II-4</p>
 
         <div class="circle">
-            <img src="imagen5.jpg" alt="II-5">
+            <img src="images/11-5.png" alt="II-5">
         </div>
         <p class="circle-label">II-5</p>
     </div>
+
+    <!-- Botón de volver al inicio -->
+    <button class="back-button" onclick="window.location.href='pagina_principal.php'">←</button>
 </body>
 </html>

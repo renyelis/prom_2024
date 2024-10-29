@@ -55,11 +55,11 @@
 </head>
 <body>
     <div class="navbar">
-    <a href="inicio.html">INICIO</a>
-    <a href="grados.html">GRADOS</a>
-    <a href="especialidades.html">ESPECIALIDADES</a>
-    <a href="cuadro-de-honor.html">CUADRO DE HONOR</a>
-    <a href="mejores-icfes.html">MEJORES ICFES</a>
+    <a href="inicio.php">INICIO</a>
+    <a href="grados.php">GRADOS</a>
+    <a href="especialidades.php">ESPECIALIDADES</a>
+    <a href="cuadro-de-honor.php">CUADRO DE HONOR</a>
+    <a href="mejores-icfes.php">MEJORES ICFES</a>
 </div>
 
     <div class="main-content">
